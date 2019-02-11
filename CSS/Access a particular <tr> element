@@ -1,0 +1,26 @@
+<!-- access odd number of tr elements -->
+tr:nth-child(2n+1) {
+    background-color: blue; //Example ...
+}
+
+<!-- access even number of tr elements -->
+tr:nth-child(2n) {
+  background-color: blue; //Example ...
+}
+
+<!-- access all tr elements starting from the third-->
+tr:nth-child(n + 3) {
+  background-color: blue; //Example ...
+}
+
+<!-- access all tr elements except the first-->
+tr:not(:first-child) {
+  background-color: blue; //Example ...
+}
+
+<!-- access all tr elements except the last-->
+tr:not(:last-child) {
+  background-color: blue; //Example ...
+}
+
+
