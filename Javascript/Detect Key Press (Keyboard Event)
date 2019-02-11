@@ -1,0 +1,21 @@
+document.addEventListener("keydown", function(event) {
+
+  <!-- returns which key was pressed -->
+  console.log(event.which);
+  
+  <!-- returns key code -->
+  console.log(event.keyCode);
+  
+  <!-- returns true if shiftKey wa spressed -->
+  console.log(event.shiftKey);
+
+  <!-- returns true if altKey wa spressed -->
+  console.log(event.altKey);
+  
+  <!-- returns true if ctrlKey wa spressed -->
+  console.log(event.ctrlKey);
+  
+  <!-- returns true if metaKey wa spressed -->
+  console.log(event.metaKey);
+  
+}
