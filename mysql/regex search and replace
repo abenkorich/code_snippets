@@ -1,0 +1,16 @@
+UPDATE table_name
+set field_name = replace (field_name, 'searched string or substring', 'replacement string')
+WHERE location like 'search_keyword%'
+
+UPDATE table_name
+set field_name = replace (field_name, 'searched string or substring', 'replacement string')
+WHERE location like 'search_keyword%'
+
+
+UPDATE table_name
+set field_name = replace (field_name, 'searched string or substring', 'replacement string')
+WHERE location REGEXP '^search_keyword[0-9]'  // keyword followed by numeric 
+
+UPDATE table_name
+set field_name = replace (field_name, 'searched string or substring', 'replacement string')
+WHERE location REGEXP '^search_keyword[a-z]'  // keyword followed by numeric 
