@@ -14,3 +14,5 @@ function friendlyURL($inputString){
 	$url = preg_replace($patterns, $replacements, $url);  
 	return $url;
 	}
+
+# Credit: https://chanon.info/create-human-friendly-url-using-preg_replace-and-regular-expression-in-php/1014/
